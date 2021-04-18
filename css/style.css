@@ -1,0 +1,97 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Century Gothic;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('https://images.pexels.com/photos/46792/the-ball-stadion-football-the-pitch-46792.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500.jpg');
+	height:250vh;
+	background-size: cover;
+	background-position: center;
+
+}
+ul{
+	float:right;
+	list-style-type: none;	
+	margin-top:25px;
+}
+ul li{
+	display:inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color:#fff;
+	padding:5px 20px;
+	border:1px solid transparent;
+	transition: 0.6s ease;
+
+}
+ul li a:hover{
+
+	background-color:#fff;
+	color:#000;
+}
+ul li.active a{
+	background-color:#fff;
+	color:#000;
+
+}
+.logo img{
+	float:left;
+	width:150px;
+	height:auto;
+	border-radius: 10px;
+}
+.main{
+	max-width:1200px;
+	margin:auto;
+}
+.title{
+	position: absolute;
+	top:90%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+
+	 color:yellow;
+	 font-size: 70px;
+
+}
+.button{
+	position: absolute;
+	top:150%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	
+	border:1px solid #fff;
+	padding:10px 30px;
+	color:#fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color:#fff;
+	color:#000;
+
+}
+.video{
+	position: absolute;
+	top:185%;
+	left:50%;
+	transform: translate(-50%,-50%);
+
+}
+.gif{
+	position: absolute;
+	top:125%;
+	left:68%;
+	transform: translate(-50%,-50%);
+	width:50%;
+	height:50%;
+
+
+
+}
